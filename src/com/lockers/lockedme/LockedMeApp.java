@@ -99,7 +99,7 @@ public class LockedMeApp {
 				System.out.println("Error:" + dle.getMessage());
 				showMainScreenInputMessage();
 			}catch(Exception e) {
-				System.out.println("\n An error has occurred and the application needs to close.");
+				System.out.println("\n An error has occurred and the application needs to close!! You need to start application again.");
 				System.exit(0);
 			}
 		}
@@ -141,7 +141,7 @@ public class LockedMeApp {
 				System.out.println("Error:" + dle.getMessage());
 				showAndProcessOptionScreen();
 			}catch(Exception e) {
-				System.out.println("\nAn error has occurred and the application needs to close.");
+				System.out.println("\nAn error has occurred and the application needs to close!! You need to start application again.");
 				System.exit(0);
 			}
 		}
